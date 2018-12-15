@@ -1,5 +1,5 @@
 // KAGAIN.cpp : Defines the entry point for the console application.
-//
+// link http://vnoi.info/problems/show/KAGAIN/
 
 #include <iostream>
 using namespace std;
