@@ -3,6 +3,8 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 
 void swap(int& a, int& b) { int c = a; a = b; b = c; }
 
@@ -55,7 +57,8 @@ void printArr(int* arr, int n)
 void QuickSort2(int* arr, int L, int H)
 {
 	if (L >= H) return;
-	int pivot = arr[L];
+	//int pivot = arr[L];
+	int pivot = arr[rand() % (H - L + 1) + L];
 	int i = L, j = H;
 	while (i < j)
 	{
@@ -79,6 +82,8 @@ void QuickSort2(int* arr, int L, int H)
 
 int main()
 {
+	srand(time(NULL));
+
 	int arr[] = { 1,4,53,2,35,4,2,14,35,12,34 };
 	
 	printArr(arr, 11);
