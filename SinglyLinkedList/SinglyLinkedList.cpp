@@ -138,16 +138,13 @@ Node* Find(int value)
 
 void Erase(int value)
 {
-	if (isEmpty())
-		return;
-
+	if (isEmpty()) return;
 	if (list.head == list.tail && list.head->value == value)
 	{
 		delete list.head;
 		list.head = list.tail = nullptr;
 		return;
 	}
-
 	if (list.head->value == value)
 	{
 		Node* p = list.head->pNext;
@@ -155,9 +152,6 @@ void Erase(int value)
 		list.head = p;
 		return;
 	}
-
-	
-
 	Node* pre = list.head;
 	Node* p = list.head->pNext;
 	while (p->value != value && p != list.tail)
@@ -165,14 +159,12 @@ void Erase(int value)
 		pre = p;
 		p = p->pNext;
 	}
-
 	if (p != list.tail)
 	{
 		pre->pNext = p->pNext;
 		delete p;
 		return;
 	}
-
 	if (list.tail->value == value)
 	{	
 		delete list.tail;
