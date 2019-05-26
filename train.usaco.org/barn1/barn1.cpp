@@ -17,11 +17,6 @@ LANG: C++
 std::vector<int> occupied;
 
 
-int getTotalStall(int begin, int end)
-{
-	return occupied[end] - occupied[begin] + 1;
-}
-
 int compare(const void * a, const void * b)
 {
 	return (*(int*)a - *(int*)b);
