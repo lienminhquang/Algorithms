@@ -1,0 +1,5 @@
+
+----------------8/4/2019---------------------
+1. Viết flash card cho graph. 
+	--> đến phần bao đóng của đồ thị ("D:\Hoc tap\C++\Giai_thuat_va_Lap_trinh.pdf" trang 207)
+2. Giải một bài trên train.usa.co.

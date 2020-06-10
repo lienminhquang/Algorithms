@@ -1,4 +1,4 @@
-
+// link: http://vnoi.info/problems/show/QBRECT/
 
 #include <iostream>
 

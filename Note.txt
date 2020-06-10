@@ -1,0 +1,2 @@
+Cay do den: phai tang dung luong luu tru tai moi nut,nhung co co loi trong 1 vai truong hop khi truy xuat cay ma can truy xuat den nut cha cua no
+Cay do den va cay AVL thi chi phi cua chung cung gan xap xi nhau, nen dung loai cay nao thi cung duoc
